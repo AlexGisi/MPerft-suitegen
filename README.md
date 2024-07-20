@@ -1,3 +1,10 @@
+# MPerft-suitegen
+Use `suitegen.py` to create a perftsuite result for inclusion in the perft [test suite file](https://github.com/AlexGisi/prometheus-chess/blob/main/test/perftsuite.epd) for [prometheus](https://github.com/AlexGisi/prometheus-chess):
+
+```
+python3 suitegen.py "<fen>"
+```
+
 # MPerft
 Fast bitboard chess move generation based on magic bitboards
 
